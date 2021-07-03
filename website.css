@@ -1,0 +1,237 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+img{
+    max-width: 100%;
+    width: 161px;
+    height: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.any{
+    width: 1270px;
+    height: auto;
+    margin: auto;
+}
+
+
+
+/* header */
+.header {
+    background-color: rgb(93, 144, 238);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.header-left {
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin: -10px 0;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+    display: block;
+    
+    
+    
+}
+.header-right ul {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+    display: block;
+    
+}
+.header-right ul li {
+    display: inline-block;
+    padding: 0 16px;
+    border-right: 1px solid white;
+    line-height: 52px;
+    margin-top: -4px;
+    margin-left: -8px;
+    
+}
+
+.header-right ul li:hover{
+    background-color: rgba(127, 168, 245, .8);
+}
+/* banner part */
+
+.moddoh{
+    background-image: url(img/pexels-cottonbro-5052875.jpg) ;
+    background-size: cover;
+    padding: 200px 0;
+    max-width: 100%;
+    
+    background-position: fixed; 
+}
+.moddoh h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(40, 107, 146, .6);
+    margin: 0 450px;
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 39px;
+}
+.moddoh h2 {
+    background-color: rgba(76, 72, 134, .7);
+    font-size: 30px;
+    margin: 0 490px;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+/* paragraph writing */
+.writing{
+    text-align: center;
+    
+}
+.writing span {
+    float: left;
+    width: 30.39%;
+    background-color: #e6e6fb;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin-right: 23px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+.writing span i h1{
+    font-size: 30px;
+    padding: 10px 0;
+
+
+}
+.writing span i h1 p{
+    font-size: 30px;
+}
+
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.about p{
+    font-size: 20px;
+    background-color: rgba(211, 210, 224, 0.5);
+    padding: 25px;
+    border-radius: 10px;
+    
+    
+}
+/* paragraph */
+.para a{
+    float: left;
+    width: 10%;
+    margin: 20px;
+    
+}
+.para a img{
+    margin-left:20px ;
+}
+.para p{
+    float: left;
+    width: 37%;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.para-right a{
+    float: left;
+    width: 10%;
+    margin-top:-520px;
+    margin-left: 52.5%;
+}
+.para-right p{
+    float: right;
+    width: 37%;
+    margin-top:-526px;
+}
+.para-rig1 a{
+    float: left;
+    width: 10%;
+    margin-top: -338px;;
+    margin-left: 52.5%;
+
+}
+.para-rig1 p{ 
+    float: right;
+    width: 37%;
+    margin-top:-344px;
+
+}
+.para-rig2 a{ float: left;
+    width: 10%;
+    margin-top: -166px;;
+    margin-left: 52.5%;
+}
+.para-rig2 p{
+    float: right;
+    width: 37%;
+    margin-top:-172px;
+    margin-bottom: 20px;
+
+}
+/* footer */
+.footer{
+    background-color:rgba(71, 84, 107, .7);
+}
+
+.social ul{
+    display: block;
+    text-align: right;
+    margin: -13px 116px;
+    padding-right: -20px;
+    padding: 5px 0;
+}
+.social li {
+    display: inline-block;
+    margin-left: -12px;
+    border: 1px solid rgba(46, 90, 211, .6);
+    background-color: rgba(46, 90, 211, .6);
+    margin-left:10px ;
+    border-radius: 50%;
+    
+    
+}
+
+.social li a i img{
+    width: 40px;
+    height: 40px;
+    margin: -5px;
+    margin-left: -7px;
+    margin: auto;
+    
+}
+.copy p{
+    font-size: 20px;
+    margin: auto;
+    padding-top: 5px;
+    margin-left: 15px;
+    float:left;
+    width: 48%;
+}
